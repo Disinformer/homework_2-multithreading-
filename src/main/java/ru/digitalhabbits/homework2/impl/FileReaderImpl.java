@@ -5,7 +5,6 @@ import ru.digitalhabbits.homework2.FileReader;
 import java.io.*;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class FileReaderImpl implements FileReader {
 
@@ -17,5 +16,4 @@ public class FileReaderImpl implements FileReader {
       throw new RuntimeException("No such file found");
     }
   }
-
 }
